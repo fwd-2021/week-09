@@ -47,7 +47,10 @@ figure {
   .good-float p {
     padding-top: 11px;
   }
-
+  /*
+    DO NOT DO THE THING YOU SEE BELOW!
+    THIS IS FROM PRE-FLEXBOX/GRID DAYS.
+  */
   .old-float::after {
     content: "";
     display: block;
@@ -60,6 +63,7 @@ figure {
   }
   .old-float p {
     padding-top: 11px;
+    padding-left: 50%;
   }
 
 
