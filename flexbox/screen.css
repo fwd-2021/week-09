@@ -23,11 +23,24 @@ html {
   padding: 22px;
 }
 
-p {
-  padding-bottom: 22px;
+.hank {
+  column-gap: 11px;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 figure {
   padding-top: 11px;
   padding-bottom: 11px;
+  flex: 1 0 50%;
+}
+
+p {
+  padding-top: 11px;
+  padding-bottom: 22px;
+  flex: 1 0 11.111em; /* 200px / 18px = 11.111 */
+}
+
+h2 {
+  flex: 1 0 100%;
 }
